@@ -1,0 +1,273 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #fff;
+    padding: 20px 0px;
+}
+.header_mainpart{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_mainpart .menu a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    color:#97999b;
+}
+.baner img{
+    width: 100%;
+
+}
+.baner{
+    position: relative;
+}
+.baner_text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.baner_text h6{
+
+color: #fff;
+
+font-size: 32pt;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+
+margin-bottom: 22px;
+}
+.baner_text p{
+    
+color: #fff;
+font-family: 'Roboto', sans-serif;   
+font-weight: 400;
+    
+font-size: 15pt;
+    
+margin-bottom: 40px;
+}
+.baner_text a{
+    
+text-decoration: none;
+    
+color: #fff;
+    
+background-color: #fb6e52;
+    
+padding: 15px 15px;
+    
+border: 1px solid #fff;
+    
+border-radius: 5px;
+    
+font-size: 15pt;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+}
+.baner_text a i{
+    font-size: 13pt;
+    margin-left: 4px;
+}
+
+.service_sec{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.service_item{
+    display: flex;
+    justify-content: space-between;
+}
+.item1{
+text-align: center;
+}
+.item1 i{
+    margin-bottom: 20px;
+     background-color: #fb6e52;
+    
+    padding: 20px;
+    
+    border-radius: 50%;
+    
+    color: #fff;
+}
+.item1 h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+margin-bottom: 15px;
+color: #292c34;
+}
+.item1 p{
+    color: #97999b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.service_text{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.service_text p{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #fb6e52;
+    text-align: center;
+}
+.service_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 50px 0px;
+}
+.box1{
+    text-align: center;
+    width: 31%;
+}
+.box1 img{
+width: 100%;
+}
+.box1 h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+margin: 15px 0px;
+}
+.box1 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #97999b;
+
+font-size: 13px;
+}
+.blog_section{
+padding: 50px 0px;
+background-color: #f9f9f9;
+}
+.blog_section h5{
+    color:#292c34;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+.blogitem{
+
+/* background-color: #f9f9f9; */
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.blogitem1{
+    
+width: 48%;
+}
+.blogitem1 img{
+    
+   width:100%;
+}
+.blogitem1 h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fb6e52;
+    padding: 25px 0px;
+ }
+ .blogitem1 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color:#97999b;
+   
+}
+
+footer{
+background-color: #292c34;
+padding: 18px 0px;
+}
+
+.footerpart{
+    
+width: 90%;
+    
+margin: auto;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+/* padding: 18px 0px; */
+    
+align-items: center;
+}
+.logopart{width:50%;display: flex;/* justify-content: space-between; */align-items: center;}
+.footerlogo{
+
+}
+.footerlogo img{
+
+}
+.logo_text{
+
+/* margin-left: 20px; */
+}
+.logo_text p{
+
+margin-left: 20px;
+
+color: #797c82;
+
+font-size: 16px;
+}
+.socialicon{width:50%;display: flex;justify-content: end;}
+.social_icon{
+
+    width: 50%;
+    }
+    .social_icon ul{
+        
+    display: flex;
+        
+    list-style-type: none;
+        
+    justify-content: end;
+        
+    /* align-items: end; */
+    }
+    .social_icon ul li{
+        
+    align-items: end;
+    }
+    .social_icon ul li a{
+        
+    text-decoration: none;
+        
+    color: #000;
+        
+    font-family: 'Playfair Display', serif;
+        
+    margin-left: 10px;
+        
+    font-size: 16px;
+    }
+    .social_icon ul li a i{
+        color:#fff;
+        padding-left: 20px;
+    }
